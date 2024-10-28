@@ -1,0 +1,52 @@
+/* Background color for the AnchorPane */
+.root {
+    -fx-background-color: #faf8ef;
+}
+
+/* Style for the TableView */
+.table-view {
+    -fx-background-color: #e6e6e6;
+    -fx-border-color: #e6e6e6;
+    -fx-border-radius: 10;
+    -fx-padding: 10;
+    -fx-background-radius: 10;
+}
+
+/* Style for the TableView Headers */
+.table-view .column-header-background {
+    -fx-background-color: #f7d0c0;
+    -fx-background-radius: 7 7 0 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Clear Sans", "Arial", sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+/* Style for Table Columns */
+.table-view .table-column {
+    -fx-alignment: center;
+    -fx-padding: 5;
+}
+
+/* Style for Table Rows */
+.table-row-cell {
+    -fx-background-color: #eee4da;
+    -fx-border-color: #bbada0;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-fill: #776e65;
+    -fx-font-family: "Clear Sans", "Arial", sans-serif;
+    -fx-font-size: 20px;
+}
+
+/* Add alternating row colors */
+.table-row-cell:even {
+    -fx-background-color: #add7ad;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #d8ceee;
+}
